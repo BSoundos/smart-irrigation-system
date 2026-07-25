@@ -22,25 +22,10 @@ An IoT-based automated plant watering system that combines a Flutter mobile appl
 - **Actuator Control**: GPIO-based water pump control
 - **Firebase Integration**: Real-time data synchronization
 
-## 🏗️ Architecture
-
-```
-smart-irrigation-system/
-├── mobile-app/                 # Flutter application
-│   ├── lib/
-│   │   ├── ....
-│   ├── assets/                # Images, fonts, icons
-│   ├── android/               # Android configuration
-│   ├── ios/                   # iOS configuration
-│   └── pubspec.yaml           # Dependencies
-├── hardware/                  # Raspberry Pi code
-│   ├── ....             
-│   └── serviceAccountKey.json # Firebase credentials (DO NOT COMMIT)
-├── docs/                      # Documentation
-│   ├── installation-guide.pdf
-│   └── user-manual.pdf
-└── README.md
-```
+### Main components:
+- **mobile_app/** - Flutter mobile application with authentication, irrigation controls, and real-time monitoring
+- **hardware/** - Raspberry Pi and Arduino code for sensor integration and actuator control
+- **docs/** - Installation guides and user manuals
 
 ## 🛠️ Tech Stack
 
@@ -72,7 +57,6 @@ For installation guides and user manuals, refer to the PDF documentation in the 
 
 ## 🎥 Demo Videos
 
-Demo videos showcasing the system functionality are available. These demonstrate:
-- Two irrigation modes in action
+Demo videos showcasing the system functionality are available. See [demo-videos.md](demo-videos.md) for detailed demonstrations of the irrigation modes and hardware setup.
 
 
